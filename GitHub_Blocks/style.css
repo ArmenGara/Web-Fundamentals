@@ -1,0 +1,46 @@
+.container{
+    width: 800px;
+    background-color: orange;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.toprow{
+    background-color: greenyellow;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.middlerow{
+    background-color: blueviolet;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lastrow{
+    background-color: rgb(26, 209, 194);
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.toprow img{
+    margin: 15px;
+    background-color: white;
+}
+
+.middlerow img{
+    margin: 15px;
+    background-color: white;
+}
+
+.lastrow img{
+    margin: 10px;
+}
