@@ -1,0 +1,66 @@
+*{
+    margin: auto 0;
+    padding: 0;
+}
+
+#header{
+    width: 800px;
+    height: 80px;
+    background-color: rgb(62, 132, 165)
+}
+
+#header > img{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+
+#top_header{
+    height: 200px;
+    width: 800px;
+    background-color: whitesmoke;
+}
+
+.user_info{
+    padding-left: 25px;
+}
+
+.user_info > h1{
+    padding-top: 30px;
+}
+
+.user_info p{
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.location{
+    display: flex;
+}
+
+.location > img{
+    height: 15px;
+    margin-right: 10px;
+
+}
+
+.location p{
+    font-size: 18px;
+}
+
+.userlink{
+    display: flex;
+    margin-top: 5px;
+}
+
+.userlink a{
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.userlink > img{
+    height: 15px;
+    margin-right: 10px;
+}
