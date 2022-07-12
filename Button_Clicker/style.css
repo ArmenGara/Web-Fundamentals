@@ -1,0 +1,124 @@
+*{
+    margin: 0 auto;
+}
+.container{
+    width: 700px;
+    height: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.nav > textarea{
+    height: 20px;
+    width: 250px;
+    border: 2px solid black;
+}
+
+.nav > button{
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 3px black;
+    height: 20px;
+    width: 80px;
+}
+
+
+.mainbar{
+    height: 400px;
+    width: 450px;
+    padding-top: 10px;
+}
+
+.bar1{
+    background-color: white;
+    height: 180px;
+    width: 430px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+
+}
+
+.sidebar{
+    width: 250px;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+}
+
+.bodypage{
+    display: flex;
+    width: 700px;
+    height: 440px;
+}
+
+.sidebar1{
+    width: 230px;
+    height: 150px;
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+
+.side1{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.side1 h1, h5, p, button{
+    padding-bottom: 5px;
+}
+
+.side1 > button{
+    color: black;
+    background-color: orange;
+    box-shadow: 3px 3px black;
+    height: 30px;
+    width: 80px;
+}
+
+.side2{
+    padding-left: 15px;
+}
+
+.side2 p{
+    font-size: 23px;
+}
+
+.side2 span{
+    text-decoration: underline;
+    color: rgb(46, 141, 173);
+}
+
+.side3{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.side3 > h2{
+    margin-bottom: 20px;
+}
+
+.side3 > button{
+    color: black;
+    background-color: rgb(23, 146, 88);
+    box-shadow: 3px 3px black;
+    height: 30px;
+    width: 160px;
+    margin-left: 20px;
+}
