@@ -1,0 +1,22 @@
+.button_1{
+    border-radius: 25px;
+    margin: 2px;
+    color: aquamarine;
+    border-color: aquamarine;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.button_2{
+    border-radius: 50px;
+    background-color: lightgreen;
+}
+
+.button_3{
+    box-shadow: 10px 5px 5px black;
+    background-color: blue;
+    padding-left: 25px;
+    padding-right: 25px;
+}
