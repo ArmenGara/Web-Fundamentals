@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belt Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navContainer">
+        <div class="layerOne"></div>
+        <div class="layerTwo">
+            <h1>Gaming<span>Dojo</span></h1>
+            <div class="userInfo">
+                <select>
+                    <option>Euro €</option>
+                    <option>Dollar $</option>
+                    <option>Crypto #</option>
+                </select>
+                <div class="userCart">
+                    <img src="images/cart-light.png" alt="cart-light">
+                    <p id="cartNumber">0</p>
+                </div>
+                <img src="images/search-light.png" alt="search-light">
+            </div>
+        </div>
+    </div>
+    <div class="bodyContainer">
+        <div class="bannerPage">
+            <h4>Highlights</h4>
+            <div class="pageHeader">
+                <img class="leftArrow" onclick="imageSwap()" src="images/chevron-left.png" alt="chevron-left">
+                <img class="headPhoto" src="images/stonepunk.png" alt="stonepunk">
+                <img class="rightArrow" onclick="imageSwap2()" src="images/chevron-left.png" alt="chevron-left">
+            </div>
+            <div class="middlePage">
+                <div class="menubar1"></div>
+                <div class="menubar2"></div>
+                <div class="menubar1"></div>
+                <div class="menubar1"></div>
+            </div>
+            <div class="lastPage">
+                <div class="lastBox">
+                    <div class="box1"><img src="images/cafe-neko.png" alt="img"></div>
+                    <div class="box2">
+                        <div class="box2Col">
+                            <h4>Cafe Neko: Gold Edition</h4>
+                            <div class="compLogo">
+                                <img src="images/windows.png" alt="windows">
+                                <img src="images/apple.png" alt="apple">
+                            </div>
+                            <div class="buyLogo">
+                                <button>NEW</button>
+                                <div class="discount">
+                                    <p>€14.98</p>
+                                    <h5>€19.99</h5>
+                                </div>
+                                <button onclick="likesButton()" class="buyNow">BUY</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lastBox">
+                    <div class="box1"><img src="images/pixel-ninjas-2.png" alt="img"></div>
+                    <div class="box2">
+                        <div class="box2Col">
+                            <h4>Pixel Ninjas 2</h4>
+                            <div class="compLogo">
+                                <img src="images/windows.png" alt="windows">
+                                <img src="images/apple.png" alt="apple">
+                            </div>
+                            <div class="buyLogo">
+                                <button>NEW</button>
+                                <div class="discount">
+                                    <p>€14.98</p>
+                                    <h5>€19.99</h5>
+                                </div>
+                                <button onclick="likesButton()" class="buyNow">BUY</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lastBox">
+                    <div class="box1"><img src="images/stonepunk.png" alt=""></div>
+                    <div class="box2">
+                        <div class="box2Col">
+                            <h4>Stonepunk 10000 BCE</h4>
+                            <div class="compLogo">
+                                <img src="images/windows.png" alt="windows">
+                                <img src="images/apple.png" alt="apple">
+                                <img onclick="alert('This game is supported by Linux')" src="images/linux.png" alt="linux">
+                            </div>
+                            <div class="buyLogo">
+                                <button>NEW</button>
+                                <h5>€19.99</h5>
+                                <button onclick="likesButton()" class="buyNow">BUY</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
